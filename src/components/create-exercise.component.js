@@ -21,6 +21,7 @@ export default class CreateExercise extends Component {
       date: new Date(),
       users: []
     };
+    console.log("STATE::::", this.state.users);
 	}
 
 	componentDidMount(){
